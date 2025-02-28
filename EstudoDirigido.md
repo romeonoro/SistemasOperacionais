@@ -25,8 +25,15 @@
 <h3>6. Como funciona a RAM? Qual o ciclo básico de execução de uma instrução? </h3>
 
 > Memória RAM é a única (grande) área de armazenamento que o processador pode acessar diretamente, fazendo com que o computador possa realizar diversas tarefas ao mesmo tempo.
+> 1. Busca de 1 instrução (LOAD)
+> 2. Decodificar a instrução
+> 3. Buscar memória os operandos (LOAD)
+> 4. Guardar a instrução
+> 5. Armazenar os resultados na RAM (STORE)
+> 6. Atualizar o endereço da próxima instrução
 
 <h3>7. Caracterize a estrutura de armazenamento de um sistema de computação.</h3>
+
 > Compiladores -> Cache -> Memória RAM -> Memória Secundária
 
 <h3>8. Em que consiste o uso de cache?</h3>
