@@ -34,8 +34,24 @@
 
 <h3>7. Caracterize a estrutura de armazenamento de um sistema de computação.</h3>
 
-> Compiladores -> Cache -> Memória RAM -> Memória Secundária
+> Compiladores/Registradores -> Cache -> Memória RAM -> Memória Secundária
 
 <h3>8. Em que consiste o uso de cache?</h3>
 
+> Armazena dados frequentemente/recentemente acessados, para reduzir o tempo de acesso à memória principal.
+
 <h3>9. Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação.</h3>
+
+> Processador
+> 1. Temporizador
+
+> Memória Principal
+> - Conjuntos de endereços que cada processo pode acessar
+>  1. Registrador BASE_ LIMITE_
+>  2. Gerencia -> paginação -> segmentação
+
+> Dispositivos de E/S
+
+> Modo DUAL de operação (do processador)
+> 1. SUPERVISOR = KERNEL: executar todo o conjunto de intruções *privilegiadas*
+> 2. USUÁRIOS: apenas um conjunto de instruções pode ser executado
