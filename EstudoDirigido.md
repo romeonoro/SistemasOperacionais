@@ -1,4 +1,4 @@
-<h1>Estudo Dirigido</h1>
+<h1>🔍 Estudo Dirigido</h1>
 <h2>Estruturas do Computador ou Estruturas de Sistemas de Computação e Conceitos de Hardware e Software</h2>
 
 <h3>1. Caracterize um sistema de computação moderno</h3>
