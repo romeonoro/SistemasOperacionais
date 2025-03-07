@@ -11,6 +11,13 @@
 - rmdir aluno
 - strace pwd
 - cd ..
+- clear
+- more
+  
+- ps
+- ps -aux
+- top
+- pstree
 
 - Editores:
   - gedit
