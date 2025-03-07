@@ -10,6 +10,7 @@
 - rm novo.txt *.txt *.*
 - rmdir aluno
 - strace pwd
+- cd ..
 
 - Editores:
   - gedit
