@@ -1,4 +1,4 @@
-Exemplo API para manipulação de arquivos na Linguagem C
+Exemplo API para manipulação de arquivos em C
 > arq.txt copia.txt
 
 Exemplo: Copiar 2 arquivos
