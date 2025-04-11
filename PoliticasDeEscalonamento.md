@@ -122,3 +122,35 @@
 
 - **T.M.E (Tempo Médio de Execução)** = (5 + 5 + 2 + 3) / 4 = 15 / 4 = 3,75
 - **T.M.R (Tempo Médio de Retorno)** = (8 + 9 + 4 + 4) / 4 = 25 / 4 = 6,25
+
+---
+
+## 5. Múltiplas Filas
+
+### Fila de prontos para usar a CPU
+- **SO (prioridade)**  
+- **Interativos (RR Q=4)**  
+- **2º plano (FIFO)**  
+
+### Política de escalonamento em cada fila
+- Definição da política de escalonamento dentro de cada fila (Round Robin, FIFO, etc.)
+
+### Política de escalonamento entre filas
+- **Prioridade**: As filas superiores têm prioridade sobre as inferiores.
+- **Divisão de CPU**: A CPU pode ser dividida de maneira proporcional entre as filas.
+
+---
+
+## 6. Múltiplas Filas com Realimentação
+
+| → **Fila 1** (RR Q=4)     |
+|---------------------------|
+|           ↓               |
+|   **Fila 2** (RR Q=8)     |
+|           ↓               |
+|   **Fila 3** (RR Q=12)    |
+|           ↓               |
+|___________________________|
+
+
+
