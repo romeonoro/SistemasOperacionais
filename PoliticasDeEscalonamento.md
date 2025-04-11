@@ -1,6 +1,6 @@
 # 💡 Algoritmos de Escalonamento de Processos
 
-## 1. FIFO ou FCFS (First In, First Served)
+## 1. FIFO ou FCFS (First In, First Out | First Come, First Served)
 
 - **Tipo:** Não preemptivo  
 - **Descrição:** Escalona o primeiro processo que chega na fila de prontos.  
