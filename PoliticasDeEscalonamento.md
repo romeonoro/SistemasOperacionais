@@ -105,9 +105,11 @@
 
 ### Cenário: Escalonamento ROUND-ROBIN (q = 2)
 
-- **Sequência de execução:**  
-  P1 → P2 → P3 → P4 → P1 → P2  
-  0 → 2 → 4 → 6 → 7 → 8 → 10  
+- **Sequência de execução:**
+
+| Processo | P1 | P2 | P3 | P4 | P1 | P2 |
+|----------|----|----|----|----|----|----|
+| Tempo    | 0  | 2  | 4  | 6  | 7  | 8  | 10 |
 
 ### Tabela de Processos
 
