@@ -50,7 +50,6 @@
 - **T.M.E (Tempo Médio de Execução)** = (3 + 7 + 5 + 6) / 4 = 21 / 4 = 5,25
 - **T.M.R (Tempo Médio de Retorno)** = (9 + 7 + 5 + 6) / 4 = 27 / 4 = 6,75
 
-
 ### Prioridade Preemptivo
 
 | Processo | Tempo de Chegada | Tempo de Execução | Tempo de Retorno (Total) |
@@ -75,7 +74,6 @@
 | P4       | 6                                 | 7                        |
 |          | **T.M.E** = 13 / 4 = 3,25          | **T.M.R** = 23 / 4 = 5,75|
 
-
 ### Preemptivo
 
 | Processo | Tempo de Espera (Fila de Prontos) | Tempo de Retorno (Total) |
@@ -99,6 +97,26 @@
 ---
 
 ## 4. Round-Robin (RR), Revezamento Circular ou Fatia de Tempo
-- → somente preemptivo
-- → quantum (q) = fatia de tempo
-- → Fila está organizada em ordem de chegada
+
+- **Tipo:** Preemptivo
+- **Quantum (q):** Fatia de tempo
+- **Fila:** Organizada em ordem de chegada
+- **Troca de Contexto:** Quando o quantum expira ou o processo é preemptado, ocorre a troca de contexto (ou chaveamento de contexto), que é o processo de salvar o estado de um processo em execução e restaurar o estado de outro processo para que ele possa ser executado.
+
+### Cenário: Escalonamento ROUND-ROBIN (q = 2)
+
+- **Sequência de execução:**  
+  P1 → P2 → P3 → P4 → P1 → P2  
+  0 → 2 → 4 → 6 → 7 → 8 → 10  
+
+### Tabela de Processos
+
+| Processo | Instante de Chegada | Ciclo de CPU | Prioridade | Tempo de Espera | Tempo de Retorno |
+|----------|---------------------|--------------|------------|-----------------|------------------|
+| P1       | 0                   | 3 (CONCLUI 1) | 4          | 5               | 8                |
+| P2       | 1                   | 4 (CONCLUI 2) | 0          | 5               | 9                |
+| P3       | 2                   | 2 (CONCLUI)   | 0          | 2               | 4                |
+| P4       | 3                   | 1 (CONCLUI)   | 1          | 3               | 4                |
+
+- **T.M.E (Tempo Médio de Execução)** = (5 + 5 + 2 + 3) / 4 = 15 / 4 = 3,75
+- **T.M.R (Tempo Médio de Retorno)** = (8 + 9 + 4 + 4) / 4 = 25 / 4 = 6,25
