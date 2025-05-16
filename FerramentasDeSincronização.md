@@ -7,4 +7,4 @@
 ## Semáforos = tipo de dado abstrato
 - um valor inteiro
 - fila de processos
-- (Operações Atômicas) duas operações: P (testar) | V (incrementar)
+- (Operações Atômicas) duas operações: P -- (testar) | V ++ (incrementar)
