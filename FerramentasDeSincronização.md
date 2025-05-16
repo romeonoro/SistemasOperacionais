@@ -69,7 +69,12 @@ S.V();
 2. Uso de Semáforos para Estabelecer a Precedência de Operações
 
 Exemplo de código:
-
+```c
+semaforo S, X;
+S.valor = 0;  // Estado inicial: -1, 0
+X.valor = 0;
+Fila de S: T1
+```
 Thread 1:
 ```c
 S.P();
